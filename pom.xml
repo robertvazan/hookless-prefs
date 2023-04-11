@@ -4,19 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.machinezoo.hookless</groupId>
-	<artifactId>hookless</artifactId>
-	<version>0.15.0</version>
+	<artifactId>hookless-prefs</artifactId>
+	<version>0.0.1</version>
 
-	<name>Hookless</name>
-	<description>Reactive programming library.</description>
+	<name>Reactive preferences for Hookless</name>
+	<description>Hookless reactive adapter for Java preferences from java.util.prefs package.</description>
 
-	<url>https://hookless.machinezoo.com/</url>
+	<url>https://github.com/robertvazan/hookless-prefs</url>
 	<inceptionYear>2015</inceptionYear>
 
 	<licenses>
 		<license>
 			<name>Apache-2.0</name>
-			<url>https://github.com/robertvazan/hookless/blob/master/LICENSE</url>
+			<url>https://github.com/robertvazan/hookless-prefs/blob/master/LICENSE</url>
 		</license>
 	</licenses>
 
@@ -33,9 +33,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:https://github.com/robertvazan/hookless.git</connection>
-		<developerConnection>scm:git:https://github.com/robertvazan/hookless.git</developerConnection>
-		<url>https://github.com/robertvazan/hookless</url>
+		<connection>scm:git:https://github.com/robertvazan/hookless-prefs.git</connection>
+		<developerConnection>scm:git:https://github.com/robertvazan/hookless-prefs.git</developerConnection>
+		<url>https://github.com/robertvazan/hookless-prefs</url>
 	</scm>
 
 	<properties>
@@ -152,7 +152,7 @@
 					</bottom>
 					<links>
 						<link>https://stagean.machinezoo.com/javadoc/</link>
-						<link>https://noexception.machinezoo.com/javadocs/core/</link>
+						<link>https://hookless.machinezoo.com/javadocs/core/</link>
 					</links>
 				</configuration>
 				<executions>
