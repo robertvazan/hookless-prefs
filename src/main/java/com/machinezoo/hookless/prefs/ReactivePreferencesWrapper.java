@@ -8,14 +8,12 @@ import java.util.prefs.*;
 import com.machinezoo.hookless.*;
 import com.machinezoo.hookless.util.*;
 import com.machinezoo.noexception.throwing.*;
-import com.machinezoo.stagean.*;
 
 /*
  * This is a wrapper around Preferences, but we in fact assume behavior of AbstractPreferences as currently implemented.
  * Most importantly, we assume that events are executed asynchronously on separate thread as is done in AbstractPreferences.
  * This implementation will still work with inline invocation of listeners as long as no lock is held by Preferences during invocation.
  */
-@NoTests
 class ReactivePreferencesWrapper extends AbstractReactivePreferences {
 	/*
 	 * Read-only methods operating on the node tree are easy to define. Let's get that done first.

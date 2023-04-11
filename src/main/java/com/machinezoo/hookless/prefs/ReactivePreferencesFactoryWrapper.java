@@ -4,9 +4,7 @@ package com.machinezoo.hookless.prefs;
 import java.util.function.Supplier;
 import java.util.prefs.*;
 import com.google.common.base.*;
-import com.machinezoo.stagean.*;
 
-@NoTests
 class ReactivePreferencesFactoryWrapper implements ReactivePreferencesFactory {
 	/*
 	 * Make the wrappers lazy, so that we don't initialize systemRoot unnecessarily.

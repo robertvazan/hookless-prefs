@@ -22,7 +22,6 @@ import com.machinezoo.stagean.*;
  * Reactive version of {@link AbstractPreferences}.
  */
 @StubDocs
-@NoTests
 public abstract class AbstractReactivePreferences extends ReactivePreferences {
 	/*
 	 * First we define linking from children to parents.
@@ -258,12 +257,12 @@ public abstract class AbstractReactivePreferences extends ReactivePreferences {
 	@Override
 	public boolean getBoolean(String key, boolean def) {
 		switch (get(key, "").toLowerCase()) {
-		case "true":
-			return true;
-		case "false":
-			return false;
-		default:
-			return def;
+			case "true":
+				return true;
+			case "false":
+				return false;
+			default:
+				return def;
 		}
 	}
 	@Override

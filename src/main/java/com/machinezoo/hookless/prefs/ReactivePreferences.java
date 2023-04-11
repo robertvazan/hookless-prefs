@@ -32,7 +32,6 @@ import com.machinezoo.stagean.*;
  * Reactive version of {@link Preferences}.
  */
 @StubDocs
-@NoTests
 @DraftApi("configurable wrap(), perhaps require strong consistency, export")
 public abstract class ReactivePreferences {
 	public abstract String name();
@@ -112,10 +111,10 @@ public abstract class ReactivePreferences {
 		if (clazz.isArray())
 			throw new IllegalArgumentException("No preferences node for arrays.");
 		String name = clazz.getName();
-        int dot = name.lastIndexOf('.');
-        if (dot < 0)
-            return "<unnamed>";
-        return name.substring(0, dot).replace('.', '/');
+		int dot = name.lastIndexOf('.');
+		if (dot < 0)
+			return "<unnamed>";
+		return name.substring(0, dot).replace('.', '/');
 	}
 	public static ReactivePreferences systemNodeForPackage(Class<?> clazz) {
 		return systemRoot().node(ReactivePreferences.packagePath(clazz));

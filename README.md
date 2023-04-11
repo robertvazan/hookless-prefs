@@ -15,7 +15,7 @@ Experimental. [Stagean](https://stagean.machinezoo.com/) is used to track progre
 
 ## Documentation
 
-There is no javadoc yet. See [source code](src/main/java/com/machinezoo/hookless) for available APIs.
+There is no javadoc yet. See [source code](src/main/java/com/machinezoo/hookless/prefs) for available APIs.
 
 ## Feedback
 
