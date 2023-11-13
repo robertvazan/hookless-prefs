@@ -3,7 +3,7 @@
 
 # Reactive preferences for Hookless
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.machinezoo.hookless/hookless-prefs)](https://search.maven.org/artifact/com.machinezoo.hookless/hookless-prefs)
+[![Maven Central](https://img.shields.io/maven-central/v/com.machinezoo.hookless/hookless-prefs)](https://central.sonatype.com/artifact/com.machinezoo.hookless/hookless-prefs)
 [![Build status](https://github.com/robertvazan/hookless-prefs/workflows/build/badge.svg)](https://github.com/robertvazan/hookless-prefs/actions/workflows/build.yml)
 [![Test coverage](https://codecov.io/gh/robertvazan/hookless-prefs/branch/master/graph/badge.svg)](https://codecov.io/gh/robertvazan/hookless-prefs)
 
